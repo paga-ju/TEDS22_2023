@@ -1,0 +1,16 @@
+{
+  "name": "05_tfjs_converter",
+  "version": "1.0.0",
+  "description": "In this exercise you will learn how to:\r - Convert and save TensorFlow Core/Keras models to TFJS models.\r - Load converted TFJS models.",
+  "main": "02_load_converted_tfjs_model.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tensorflow/tfjs": "^4.0.0",
+    "@tensorflow/tfjs-node": "^4.0.0"
+  }
+}

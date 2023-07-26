@@ -1,0 +1,16 @@
+{
+  "name": "04_tfjs",
+  "version": "1.0.0",
+  "description": "In this exercise you will learn how to use TensorFlow JS (TFJS) to:\r - Create a model.\r - Train a model.\r - Use a model in inference mode (predict).\r - Save a model.\r - Load a model.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tensorflow/tfjs": "^4.0.0",
+    "@tensorflow/tfjs-node": "^4.0.0"
+  }
+}
