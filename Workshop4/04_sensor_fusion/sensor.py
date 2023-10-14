@@ -113,8 +113,8 @@ class Sensor(object):
 
         cbar.set_ticklabels(
             [r'$3 \sigma$', '$2 \sigma$', '$\sigma$', '{:.2%}'.format(
-                gaussian(0, 0, self.predictor_sigma))],
-            update_ticks=True
+                gaussian(0, 0, self.predictor_sigma))]
+            #,update_ticks=True
         )
 
         #fig.savefig(os.path.join(path, self.name+".svg"))
