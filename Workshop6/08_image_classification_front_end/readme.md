@@ -19,7 +19,7 @@ In the `08_image_classification_front_end` folder, run:
 > `http-server -c-1`
 
 Then use the following URL in your web browser to access the web application:
-> `http://localhost:8080`
+> `http://localhost:8080` (or `http://localhost:8081`)
 
 The web application writes the predicted class to the console.
 
