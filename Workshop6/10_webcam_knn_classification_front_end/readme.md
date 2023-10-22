@@ -19,6 +19,6 @@ In the `10_webcam_knn_classification_front_end` folder, run:
 > `http-server -c-1`
 
 Then use the following URL in your web browser to access the web application:
-> `http://localhost:8080`
+> `http://localhost:8080` (or `http://localhost:8081`)
 
 When you are done, in the terminal where you started the `http-server`, use `<ctrl> + <c>` to stop the `http-server`.
