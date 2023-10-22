@@ -125,7 +125,7 @@ The code in these two file use the following packages/modules:
 - `upper-case` is the package we installed.
 - `myModule` is the module we wrote ourselves.
 
-The web server uses `http://localhost:8080`.
+The web server uses `http://localhost:8081`.
 
 ## Running the Web Server
 
@@ -137,7 +137,7 @@ or
 
 > `node server.mjs`
 
-Then we can access the web application in our browser using the following URL: `http://localhost:8080`
+Then we can access the web application in our browser using the following URL: `http://localhost:8081`
 
 To stop the web server, press `ctrl + c`
 
@@ -154,7 +154,7 @@ To use the `http-server`, we just need to move to the desired web application fo
 
 > `http-server -c-1`
 
-Then the web application will be available via `http://localhost:8080`. The `-c-1` flag ensures that the web browser wont cache any information (which is good while developing the web application).
+Then the web application will be available (by default) via `http://localhost:8080` (another port might be chosen, e.g. 8081, if 8080 is unavailable). The `-c-1` flag ensures that the web browser wont cache any information (which is good while developing the web application).
 
 To stop the web server, press `ctrl + c`
 
